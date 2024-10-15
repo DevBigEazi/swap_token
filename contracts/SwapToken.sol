@@ -2,7 +2,6 @@
 pragma solidity ^0.8.26;
 import { ERC20Token } from "./IERC20.sol";
 
-
 contract SwapToken {
     ERC20Token public dltToken;
     ERC20Token public usdtToken;
